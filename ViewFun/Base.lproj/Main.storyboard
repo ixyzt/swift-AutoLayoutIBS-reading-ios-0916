@@ -16,21 +16,43 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4li-Bz-T2k">
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8G7-UW-NN8">
+                                        <color key="backgroundColor" red="0.5" green="0.0" blue="0.5" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="100" id="4yS-LF-xE8"/>
+                                            <constraint firstAttribute="width" constant="100" id="bPH-VB-cek"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
                                 <color key="backgroundColor" red="0.085007378800000005" green="0.1049599378" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="100" id="7W9-PD-94a"/>
+                                    <constraint firstItem="8G7-UW-NN8" firstAttribute="leading" secondItem="4li-Bz-T2k" secondAttribute="leading" id="Pi1-CZ-ztt"/>
                                     <constraint firstAttribute="width" constant="100" id="aSe-U1-4Wg"/>
+                                    <constraint firstItem="8G7-UW-NN8" firstAttribute="top" secondItem="4li-Bz-T2k" secondAttribute="top" id="zOH-h8-dlk"/>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RDG-W6-7es">
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uJL-tA-AMp">
+                                        <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="hUX-eW-K1K"/>
+                                            <constraint firstAttribute="width" constant="40" id="wuI-Hy-Qkn"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
                                 <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="40" id="93b-wJ-igz"/>
+                                    <constraint firstAttribute="bottom" secondItem="uJL-tA-AMp" secondAttribute="bottom" id="JFt-FR-Yzf"/>
                                     <constraint firstAttribute="height" constant="40" id="LTB-Bu-ciA"/>
+                                    <constraint firstAttribute="trailing" secondItem="uJL-tA-AMp" secondAttribute="trailing" id="avQ-Dl-rBo"/>
                                 </constraints>
                             </view>
                         </subviews>
